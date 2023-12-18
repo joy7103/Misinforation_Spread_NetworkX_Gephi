@@ -13,13 +13,18 @@ misinformation navigates but also endeavors to provide insights that can aid in 
 
 
 ● Dataset: The code makes use of real-life dataset of Facebook users putting the code to use in the real world.
+
 ● Modularity:The code is modular, with separate functions for loading the graph, visualizing the graph,
   running the Independent Cascade Model, and performing influence maximization using CELF. This makes the code more readable and maintainable.
+  
 ● Visualization:The code provides a visual representation of the graph at each iteration of the Independent Cascade Model,
   making it easier to understand the spread of influence.
+  
 ● Parameterization:The code allows for easy parameterization, such as changing the probability of activation (p), the number of iterations, 
   and the number of influential nodes to select (k).
+  
 ● Random Seed Nodes:Seed nodes are randomly generated, providing flexibility for testing the algorithm with different initial conditions.
+
 ● Documentation and Comments:The code includes comments to explain the purpose of each function and important steps within the functions. 
   This helps others understand the code more easily.
   
